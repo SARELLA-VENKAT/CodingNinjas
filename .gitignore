@@ -28,3 +28,20 @@ dist-ssr
 
 # Large files
 codingninjas-website-video.mp4
+
+# Unused/Demo Video recordings
+1.mp4
+coding ninjas footer title.mp4
+
+# Local requirements & PRD documents
+CodingNinjas_Clone_PRD.docx
+CodingNinjas_Clone_PRD.txt
+
+# Local design resources & screenshots
+hero_bg_thumb.png
+hero_live.png
+hero_live_thumb.png
+
+# Experimental/scratch scripts
+scratch/
+
