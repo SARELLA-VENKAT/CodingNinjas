@@ -1,0 +1,208 @@
+[
+  {
+    "id": "da-iitm-001",
+    "slug": "data-analytics-iitm-certification",
+    "title": "Professional Certification in Data Analytics with GenAI",
+    "category": "Data Analytics",
+    "audience": "working_professional",
+    "partner": "IITM Pravartak, TIH IIT Madras",
+    "duration": "6 months",
+    "enrollmentCount": "20000+",
+    "aiToolsCount": 10,
+    "type": "IIT Certification",
+    "popular": true,
+    "bannerImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=340&fit=crop",
+    "tags": ["Data Analytics", "GenAI", "IIT Certification"],
+    "isOpen": true,
+    "price": "₹85,000",
+    "highlights": ["10 AI Tools", "IIT Certification", "Industry Aligned"],
+    "curriculum": [
+      { "module": "Module 1: Foundations of Data Analytics", "topics": ["Introduction to Data Science", "Statistics & Probability", "Data Collection Methods"] },
+      { "module": "Module 2: Python for Data Analysis", "topics": ["Python Basics", "NumPy & Pandas", "Data Visualization with Matplotlib"] },
+      { "module": "Module 3: SQL & Database Management", "topics": ["SQL Fundamentals", "Advanced Queries", "Database Design"] },
+      { "module": "Module 4: Machine Learning Basics", "topics": ["Supervised Learning", "Unsupervised Learning", "Model Evaluation"] },
+      { "module": "Module 5: GenAI Integration", "topics": ["LLM Fundamentals", "Prompt Engineering", "Building AI-powered Analytics"] }
+    ],
+    "faculty": [
+      { "name": "Dr. Rajeev Kumar", "designation": "Professor, IIT Madras", "company": "IIT Madras", "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" },
+      { "name": "Priya Sharma", "designation": "Lead Data Scientist", "company": "Google", "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face" }
+    ]
+  },
+  {
+    "id": "genai-001",
+    "slug": "generative-ai-certification",
+    "title": "Generative AI Certification Course",
+    "category": "Generative AI",
+    "audience": "working_professional",
+    "partner": "Coding Ninjas",
+    "duration": "4 months",
+    "enrollmentCount": "15000+",
+    "aiToolsCount": 15,
+    "type": "Professional Certificate",
+    "popular": true,
+    "bannerImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=340&fit=crop",
+    "tags": ["GenAI", "LLM", "ChatGPT"],
+    "isOpen": true,
+    "price": "₹59,000",
+    "highlights": ["15 AI Tools", "Hands-on Projects", "Career Support"],
+    "curriculum": [
+      { "module": "Module 1: Introduction to GenAI", "topics": ["History of AI", "Transformer Architecture", "LLM Overview"] },
+      { "module": "Module 2: Prompt Engineering", "topics": ["Prompt Design Patterns", "Chain of Thought", "Few-shot Learning"] },
+      { "module": "Module 3: Building with LLMs", "topics": ["OpenAI API", "LangChain", "RAG Applications"] },
+      { "module": "Module 4: Advanced GenAI", "topics": ["Fine-tuning Models", "CrewAI Multi-Agent", "Production Deployment"] }
+    ],
+    "faculty": [
+      { "name": "Ankush Singla", "designation": "Co-founder", "company": "Coding Ninjas", "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face" }
+    ]
+  },
+  {
+    "id": "sd-001",
+    "slug": "full-stack-web-development",
+    "title": "Full Stack Web Development with GenAI",
+    "category": "Software Development",
+    "audience": "college_student",
+    "partner": "Coding Ninjas",
+    "duration": "9 months",
+    "enrollmentCount": "50000+",
+    "aiToolsCount": 8,
+    "type": "Job Guarantee",
+    "popular": true,
+    "bannerImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=340&fit=crop",
+    "tags": ["Web Dev", "MERN Stack", "GenAI"],
+    "isOpen": true,
+    "price": "₹79,000",
+    "highlights": ["8 AI Tools", "Job Guarantee", "MERN Stack"],
+    "curriculum": [
+      { "module": "Module 1: Frontend Development", "topics": ["HTML/CSS", "JavaScript", "React.js"] },
+      { "module": "Module 2: Backend Development", "topics": ["Node.js", "Express.js", "REST APIs"] },
+      { "module": "Module 3: Database & DevOps", "topics": ["MongoDB", "SQL", "Docker & CI/CD"] },
+      { "module": "Module 4: GenAI Integration", "topics": ["AI Copilots", "Code Generation", "Testing with AI"] }
+    ],
+    "faculty": [
+      { "name": "Nidhi Agarwal", "designation": "Sr. Engineer", "company": "Microsoft", "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face" }
+    ]
+  },
+  {
+    "id": "ds-001",
+    "slug": "data-science-machine-learning",
+    "title": "Data Science & Machine Learning Program",
+    "category": "Data Science",
+    "audience": "working_professional",
+    "partner": "IITM Pravartak",
+    "duration": "8 months",
+    "enrollmentCount": "25000+",
+    "aiToolsCount": 12,
+    "type": "IIT Certification",
+    "popular": true,
+    "bannerImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=340&fit=crop",
+    "tags": ["Data Science", "ML", "Deep Learning"],
+    "isOpen": true,
+    "price": "₹95,000",
+    "highlights": ["12 AI Tools", "IIT Certification", "Capstone Project"],
+    "curriculum": [
+      { "module": "Module 1: Math & Statistics", "topics": ["Linear Algebra", "Probability", "Statistical Inference"] },
+      { "module": "Module 2: Machine Learning", "topics": ["Regression", "Classification", "Ensemble Methods"] },
+      { "module": "Module 3: Deep Learning", "topics": ["Neural Networks", "CNNs", "RNNs & Transformers"] },
+      { "module": "Module 4: MLOps", "topics": ["Model Deployment", "MLflow", "Monitoring"] }
+    ],
+    "faculty": [
+      { "name": "Dr. Anand Mishra", "designation": "Asst. Professor", "company": "IIT Jodhpur", "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face" }
+    ]
+  },
+  {
+    "id": "dsa-001",
+    "slug": "dsa-competitive-programming",
+    "title": "DSA & Competitive Programming Boot Camp",
+    "category": "DSA",
+    "audience": "college_student",
+    "partner": "Coding Ninjas",
+    "duration": "6 months",
+    "enrollmentCount": "80000+",
+    "aiToolsCount": 5,
+    "type": "Certificate",
+    "popular": true,
+    "bannerImage": "https://images.unsplash.com/photo-1515879218367-8466d910adef?w=600&h=340&fit=crop",
+    "tags": ["DSA", "Competitive Programming", "Placements"],
+    "isOpen": true,
+    "price": "₹29,000",
+    "highlights": ["5 AI Tools", "Placement Focused", "Live Contests"],
+    "curriculum": [
+      { "module": "Module 1: Arrays & Strings", "topics": ["Array Manipulation", "String Algorithms", "Two Pointers"] },
+      { "module": "Module 2: Trees & Graphs", "topics": ["Binary Trees", "BST", "Graph Traversal"] },
+      { "module": "Module 3: Dynamic Programming", "topics": ["1D DP", "2D DP", "DP on Trees"] },
+      { "module": "Module 4: Advanced Topics", "topics": ["Segment Trees", "Tries", "Competitive Contests"] }
+    ],
+    "faculty": [
+      { "name": "Kartik Mathur", "designation": "SDE-3", "company": "Amazon", "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face" }
+    ]
+  },
+  {
+    "id": "da-002",
+    "slug": "business-analytics-excel",
+    "title": "Business Analytics with Excel & Power BI",
+    "category": "Data Analytics",
+    "audience": "working_professional",
+    "partner": "Coding Ninjas",
+    "duration": "3 months",
+    "enrollmentCount": "12000+",
+    "aiToolsCount": 6,
+    "type": "Professional Certificate",
+    "popular": false,
+    "bannerImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=340&fit=crop",
+    "tags": ["Excel", "Power BI", "Business Analytics"],
+    "isOpen": true,
+    "price": "₹35,000",
+    "highlights": ["6 AI Tools", "Real Case Studies", "Industry Projects"],
+    "curriculum": [
+      { "module": "Module 1: Excel Mastery", "topics": ["Advanced Formulas", "Pivot Tables", "VBA Basics"] },
+      { "module": "Module 2: Power BI", "topics": ["Data Modeling", "DAX", "Interactive Dashboards"] }
+    ],
+    "faculty": []
+  },
+  {
+    "id": "sd-002",
+    "slug": "android-app-development",
+    "title": "Android App Development with Kotlin",
+    "category": "Software Development",
+    "audience": "college_student",
+    "partner": "Coding Ninjas",
+    "duration": "5 months",
+    "enrollmentCount": "18000+",
+    "aiToolsCount": 4,
+    "type": "Certificate",
+    "popular": false,
+    "bannerImage": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=600&h=340&fit=crop",
+    "tags": ["Android", "Kotlin", "Mobile Dev"],
+    "isOpen": true,
+    "price": "₹45,000",
+    "highlights": ["4 AI Tools", "Publish to Play Store", "Jetpack Compose"],
+    "curriculum": [
+      { "module": "Module 1: Kotlin Fundamentals", "topics": ["Kotlin Basics", "OOP", "Coroutines"] },
+      { "module": "Module 2: Android Development", "topics": ["Jetpack Compose", "Navigation", "Room Database"] }
+    ],
+    "faculty": []
+  },
+  {
+    "id": "genai-002",
+    "slug": "chatgpt-prompt-engineering",
+    "title": "ChatGPT & Prompt Engineering Masterclass",
+    "category": "Generative AI",
+    "audience": "working_professional",
+    "partner": "Coding Ninjas",
+    "duration": "2 months",
+    "enrollmentCount": "30000+",
+    "aiToolsCount": 8,
+    "type": "Certificate",
+    "popular": false,
+    "bannerImage": "https://images.unsplash.com/photo-1684487747720-1ba29cda82c8?w=600&h=340&fit=crop",
+    "tags": ["ChatGPT", "Prompt Engineering", "AI Automation"],
+    "isOpen": true,
+    "price": "₹19,000",
+    "highlights": ["8 AI Tools", "Automation Projects", "Quick Start"],
+    "curriculum": [
+      { "module": "Module 1: ChatGPT Mastery", "topics": ["Prompt Techniques", "Custom GPTs", "API Integration"] },
+      { "module": "Module 2: AI Automation", "topics": ["Zapier + AI", "Workflow Automation", "AI Agents"] }
+    ],
+    "faculty": []
+  }
+]

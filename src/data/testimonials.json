@@ -1,0 +1,62 @@
+[
+  {
+    "id": "t-001",
+    "name": "Vaibhav Dubey",
+    "role": "SMTS at Salesforce",
+    "company": "Salesforce",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "quote": "I am immensely gratified by the GenAI program offered by Coding Ninjas. The curriculum was thoughtfully designed to cover all essential topics, from prompt engineering to building production-ready applications.",
+    "hasVideo": true,
+    "rating": 5
+  },
+  {
+    "id": "t-002",
+    "name": "Priya Menon",
+    "role": "SDE-2 at Amazon",
+    "company": "Amazon",
+    "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+    "quote": "The structured approach and 1:1 doubt support made all the difference. Within 3 months of completing the course, I landed my dream role at Amazon. The placement team was incredibly supportive.",
+    "hasVideo": true,
+    "rating": 5
+  },
+  {
+    "id": "t-003",
+    "name": "Rahul Sharma",
+    "role": "Data Analyst at Google",
+    "company": "Google",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "quote": "Coding Ninjas helped me transition from a non-tech background to a data analyst role at Google. The hands-on projects and mock interviews prepared me thoroughly for the recruitment process.",
+    "hasVideo": false,
+    "rating": 5
+  },
+  {
+    "id": "t-004",
+    "name": "Sneha Patel",
+    "role": "ML Engineer at Microsoft",
+    "company": "Microsoft",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "quote": "The Data Science program exceeded my expectations. The faculty from IIT Madras brought real-world experience to every lecture. I especially loved the capstone project that I could showcase in interviews.",
+    "hasVideo": true,
+    "rating": 5
+  },
+  {
+    "id": "t-005",
+    "name": "Arjun Krishnan",
+    "role": "Full Stack Dev at Flipkart",
+    "company": "Flipkart",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    "quote": "The MERN stack course was exactly what I needed. The AI code editor feature helped me debug faster, and the community support through the 10X Club kept me motivated throughout the journey.",
+    "hasVideo": false,
+    "rating": 5
+  },
+  {
+    "id": "t-006",
+    "name": "Ananya Gupta",
+    "role": "Product Analyst at Uber",
+    "company": "Uber",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+    "quote": "Coming from a commerce background, I was nervous about coding. But the teaching methodology at Coding Ninjas made complex concepts easy to understand. Now I work at Uber as a Product Analyst!",
+    "hasVideo": true,
+    "rating": 5
+  }
+]
