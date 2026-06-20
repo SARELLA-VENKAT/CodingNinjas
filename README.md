@@ -2,6 +2,8 @@
 
 A state-of-the-art e-learning platform clone inspired by the Coding Ninjas redesign. Built with a premium dark-mode aesthetic, rich micro-animations, and interactive user components, this application delivers a highly engaging and responsive UX.
 
+🔗 **Live Demo**: [https://coding-ninjas-cn.vercel.app/](https://coding-ninjas-cn.vercel.app/)
+
 ![Platform Interface](screenshot_1.png)
 
 ## 🚀 Key Features
