@@ -13,7 +13,7 @@ export default function AuthDrawer({ isOpen, onClose }) {
       gsap.killTweensOf([backdropRef.current, drawerRef.current]);
       
       gsap.set(backdropRef.current, { display: 'block', opacity: 0 });
-      gsap.set(drawerRef.current, { x: '100%' });
+      gsap.set(drawerRef.current, { display: 'flex', x: '100%' });
 
       gsap.to(backdropRef.current, {
         opacity: 0.6,
@@ -33,7 +33,12 @@ export default function AuthDrawer({ isOpen, onClose }) {
       gsap.to(drawerRef.current, {
         x: '100%',
         duration: 0.3,
-        ease: 'power3.in'
+        ease: 'power3.in',
+        onComplete: () => {
+          if (drawerRef.current) {
+            drawerRef.current.style.display = 'none';
+          }
+        }
       });
 
       gsap.to(backdropRef.current, {
@@ -81,6 +86,7 @@ export default function AuthDrawer({ isOpen, onClose }) {
       <div
         ref={drawerRef}
         className="fixed right-0 top-0 bottom-0 w-full sm:w-[400px] bg-surface-dark-2 border-l border-border-dark z-[10000] shadow-2xl p-6 lg:p-8 flex flex-col justify-between transform translate-x-full overflow-y-auto"
+        style={{ display: 'none' }}
         role="dialog"
         aria-modal="true"
         aria-label="Login drawer"

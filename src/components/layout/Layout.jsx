@@ -25,7 +25,7 @@ export default function Layout() {
   };
 
   return (
-    <div className="min-h-screen bg-surface-black">
+    <div className="min-h-screen bg-surface-black overflow-x-hidden w-full">
       <Navbar />
       <main id="main-content" className="pt-16">
         <AnimatePresence mode="wait">
