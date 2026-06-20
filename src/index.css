@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Base Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #403f3f;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5e5f60;
+}
+
+/* Hide scrollbar for marquee containers */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Focus Styles */
+*:focus-visible {
+  outline: 2px solid #F66C3B;
+  outline-offset: 2px;
+}
+
+/* Skip to main content link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #F66C3B;
+  color: #ffffff;
+  padding: 8px 16px;
+  z-index: 9999;
+  font-weight: 700;
+  border-radius: 0 0 8px 0;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(246, 108, 59, 0.3);
+  color: #ffffff;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Swiper pagination dot overrides for brand colors */
+.swiper-pagination-bullet {
+  background: #838485 !important;
+  opacity: 0.5 !important;
+  width: 8px !important;
+  height: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #F66C3B !important;
+  opacity: 1 !important;
+  width: 24px !important;
+  border-radius: 4px !important;
+}
+
+/* Custom utility classes */
+@layer utilities {
+  .text-gradient-orange {
+    background: linear-gradient(135deg, #F66C3B, #FA7328, #FDB994);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .bg-gradient-dark {
+    background: linear-gradient(180deg, #000000 0%, #141414 100%);
+  }
+
+  .bg-gradient-orange {
+    background: linear-gradient(135deg, #F66C3B 0%, #E94560 100%);
+  }
+
+  .glass-card {
+    background: rgba(26, 26, 26, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .card-hover {
+    transition: all 0.2s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Shimmer animation for loading or decorative shimmer */
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .shimmer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -100%;
+    bottom: 0;
+    left: -100%;
+    background: linear-gradient(
+      90deg,
+      transparent 25%,
+      rgba(246, 108, 59, 0.05) 50%,
+      transparent 75%
+    );
+    animation: shimmer 3s infinite;
+  }
+
+  @keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+
+  /* Glow text effect */
+  .text-glow-orange {
+    text-shadow: 0 0 20px rgba(246, 108, 59, 0.3), 0 0 40px rgba(246, 108, 59, 0.1);
+  }
+
+  /* Border glow effect */
+  .border-glow {
+    box-shadow: 0 0 0 1px rgba(246, 108, 59, 0.15), 0 0 20px rgba(246, 108, 59, 0.1);
+  }
+}
+
+/* Giant shimmering footer title */
+.shimmer-footer-title {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.07) 46%, rgba(255, 255, 255, 0.35) 50%, rgba(255, 255, 255, 0.07) 54%);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shine-sweep 8s linear infinite;
+}
+
+@keyframes shine-sweep {
+  to {
+    background-position: 200% center;
+  }
+}
+
